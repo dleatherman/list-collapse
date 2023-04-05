@@ -1,0 +1,12 @@
+list-collapse > ol, list-collapse > ul {
+  overflow: clip;
+}
+[data-collapse] {
+  height: 1lh;
+  /* HACK: Firefox estimation of line height, probably not reliable */
+  height: 1.1rem;
+  overflow-y: inherit;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
