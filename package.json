@@ -1,0 +1,16 @@
+{
+  "name": "list-collapse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list-collapse.js",
+  "scripts": {
+    "start": "eleventy-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dan Leatherman <dleatherman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy-dev-server": "^1.0.4"
+  }
+}
